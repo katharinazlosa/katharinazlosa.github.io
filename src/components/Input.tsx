@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 type InputType = {
   onSendMessage: Function;
@@ -26,7 +27,7 @@ const Input = ({ onSendMessage }: InputType) => {
             type="text"
             placeholder="Enter your message and press ENTER"
           />
-          <button>Send</button>
+          <Button text="Send" color="green" />
         </form>
       </div>
     </>

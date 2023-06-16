@@ -1,2 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  //colors
+  --color-white: #fff;
+  --color-black: #333;
+  --color-grey: #2c2b2b;
+  --color-red-500: #c0392b;
+  --color-green-500: #27ae60;
+  --color-blue-500: #2980b9;
+  --color-overlay: rgba(97, 97, 97, 0.788);
+  --color-yellow: #f39c12;
+
+  //border
+  --border-rounded: 0.5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
 //imports
+@import "./components/body.scss";
+@import "./components/button.scss";
+@import "./components/header.scss";
+@import "./components/input.scss";
+@import "./components/main.scss";
 @import "./components/messages.scss";

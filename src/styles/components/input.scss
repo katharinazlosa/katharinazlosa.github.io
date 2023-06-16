@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-green-500);
+  flex-grow: 1;
+}

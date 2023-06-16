@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--color-white);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  &__img {
+    height: 10vh;
+  }
+}
